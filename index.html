@@ -1,0 +1,1488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="icofont/icofont/icofont.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <title>Directone</title>
+</head>
+
+<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+  <div class="container-fluid p-0 h-auto">
+    <div class="header card bg-dark text-white border-0">
+      <div class="card-img-overlay p-0">
+        <div class="top-header bg-dark p-1">
+          <div class="container-fluid container-lg">
+            <div class="row justify-content-between align-items-center">
+              <div class="col-12 col-md-3 contact">
+                <span class="text-danger fs-7 fw-bold">Free Call</span>
+                <span class="text-white fs-7 fw-bold">+1 234 567 8910</span>
+              </div>
+              <div class="col-12 col-md-4 social">
+                <ul class="list-inline d-sm-flex justify-content-md-end m-0">
+                  <li class="list-inline-item">
+                    <a class="text-decoration-none text-uppercase text-white-50 fs-8" href="">Facebook</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a class="text-decoration-none text-uppercase text-white-50 fs-8" href="">Twitter</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a class="text-decoration-none text-uppercase text-white-50 fs-8" href="">Dribble</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-lg-transparent py-4 mb-5">
+          <div class="container-fluid container-lg">
+            <a class="navbar-brand">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-compass text-danger fs-1"></i>
+                <div class="d-flex flex-column ms-1">
+                  <span class="fs-2 lh-1 fw-bold">Directone</span>
+                  <span class="fs-8 lh-1 fw-bold text-uppercase">Directory and Listing</span>
+                </div>
+              </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader">
+              <span class="fa fa-bars"></span>
+              Menu
+            </button>
+            <div class="collapse navbar-collapse" id="navbarHeader">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a href="" class="nav-link active text-uppercase mx-3">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link text-uppercase mx-3">About</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link text-uppercase mx-3">Listing</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link text-uppercase mx-3">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link text-uppercase mx-3">Contact</a>
+                </li>
+              </ul>
+              <button class="btn btn-danger">
+                <span class="p-2">+ Add Listing</span>
+              </button>
+            </div>
+          </div>
+        </nav>
+        <h1 class="col-8 display-2 fw-bold text-center offset-2">
+          Let's Explore Your Awesome City
+        </h1>
+        <p class="text-center fs-6 opacity-75 fw-bold">
+          Find great places to stay, eat, shop, or visit from local experts.
+        </p>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-9">
+              <form class="row row-cols-lg-4 g-0 align-items-center justify-content-center my-5">
+                <div class="col-8">
+                  <label class="visually-hidden" for="inlineFormInputGroupSearch">Search</label>
+                  <div class="input-group input-group-lg">
+                    <div class="input-group-text rounded-top-left rounded-lg-start">
+                      <i class="fa-solid fa-at"></i>
+                    </div>
+                    <input type="text" class="form-control rounded-top-right rounded-lg-top-right-0"
+                      id="inlineFormInputGroupSearch" placeholder="What are you looking for?" />
+                  </div>
+                </div>
+                <div class="col-8">
+                  <label class="visually-hidden" for="inlineFormInputGroupLocation">Location</label>
+                  <div class="input-group input-group-lg">
+                    <div class="input-group-text"><i class="fa-solid fa-location-dot"></i></div>
+                    <input type="text" class="form-control" id="inlineFormInputGroupLocation"
+                      placeholder="Search location" />
+                  </div>
+                </div>
+                <div class="col-8">
+                  <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                  <select class="form-select form-select-lg " id="inlineFormSelectPref">
+                    <option selected>All categories</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                <div class="col-8">
+                  <button type="submit"
+                    class="btn btn-lg btn-danger w-100 rounded-bottom rounded-lg-end rounded-lg-bottom-left-0">
+                    <i class="fa fa-search me-2"></i>Search
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="services">
+    <div class="container">
+      <div class="row gy-3 gy-lg-3 gx-lg-3">
+        <div class="col-md-4 col-lg-2 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+          data-aos-duration="1000">
+          <div class="card text-center py-4">
+            <div class="card-body">
+              <a class="stretched-link" href="#"><i class="icofont-fast-food fa-4x"></i></a>
+              <h5 class="card-title my-3">Food & Drink</h5>
+              <div class="d-flex align-items-center">
+                <span class="badge bg-light">103</span>
+                <h6 class="card-subtitle ms-2">Listing</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200"
+          data-aos-duration="1000">
+          <div class="card text-center py-4 active">
+            <div class="card-body">
+              <a class="stretched-link" href="#"><i class="icofont-5-star-hotel fa-4x"></i></a>
+              <h5 class="card-title my-3">Hotel</h5>
+              <div class="d-flex align-items-center">
+                <span class="badge bg-light">103</span>
+                <h6 class="card-subtitle ms-2">Listing</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300"
+          data-aos-duration="1000">
+          <div class="card text-center py-4">
+            <div class="card-body">
+              <a class="stretched-link" href="#"><i class="icofont-shopping-cart fa-4x"></i></a>
+              <h5 class="card-title my-3">Shopping</h5>
+              <div class="d-flex align-items-center">
+                <span class="badge bg-light">103</span>
+                <h6 class="card-subtitle ms-2">Listing</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400"
+          data-aos-duration="1000">
+          <div class="card text-center py-4">
+            <div class="card-body">
+              <a class="stretched-link" href="#"><i class="icofont-leaf fa-4x"></i></a>
+              <h5 class="card-title my-3">Beauty</h5>
+              <div class="d-flex align-items-center">
+                <span class="badge bg-light">103</span>
+                <h6 class="card-subtitle ms-2">Listing</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400"
+          data-aos-duration="1000">
+          <div class="card text-center py-4">
+            <div class="card-body">
+              <a class="stretched-link" href="#"><i class="icofont-gym-alt-1 fa-4x"></i></a>
+              <h5 class="card-title my-3">Fitness</h5>
+              <div class="d-flex align-items-center">
+                <span class="badge bg-light">103</span>
+                <h6 class="card-subtitle ms-2">Listing</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400"
+          data-aos-duration="1000">
+          <div class="card text-center py-4">
+            <div class="card-body">
+              <a class="stretched-link" href="#"><i class="icofont-music-notes fa-4x"></i></a>
+              <h5 class="card-title my-3">Bar & Clube</h5>
+              <div class="d-flex align-items-center">
+                <span class="badge bg-light">103</span>
+                <h6 class="card-subtitle ms-2">Listing</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+          data-aos-duration="1000">
+          <div class="card text-center py-4">
+            <div class="card-body">
+              <a class="stretched-link" href="#"><i class="icofont-fast-food fa-4x"></i></a>
+              <h5 class="card-title my-3">Food & Drink</h5>
+              <div class="d-flex align-items-center">
+                <span class="badge bg-light">103</span>
+                <h6 class="card-subtitle ms-2">Listing</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+          data-aos-duration="1000">
+          <div class="card text-center py-4">
+            <div class="card-body">
+              <a class="stretched-link" href="#">
+                <i class="icofont-5-star-hotel fa-4x"></i></a>
+              <h5 class="card-title my-3">Hotel</h5>
+              <div class="d-flex align-items-center">
+                <span class="badge bg-light">103</span>
+                <h6 class="card-subtitle ms-2">Listing</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300"
+          data-aos-duration="1000">
+          <div class="card text-center py-4">
+            <div class="card-body">
+              <a class="stretched-link" href="#"><i class="icofont-shopping-cart fa-4x"></i></a>
+              <h5 class="card-title my-3">Shopping</h5>
+              <div class="d-flex align-items-center">
+                <span class="badge bg-light">103</span>
+                <h6 class="card-subtitle ms-2">Listing</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400"
+          data-aos-duration="1000">
+          <div class="card text-center py-4">
+            <div class="card-body">
+              <a class="stretched-link" href="#"><i class="icofont-leaf fa-4x"></i></a>
+              <h5 class="card-title my-3">Beauty</h5>
+              <div class="d-flex align-items-center">
+                <span class="badge bg-light">103</span>
+                <h6 class="card-subtitle ms-2">Listing</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400"
+          data-aos-duration="1000">
+          <div class="card text-center py-4">
+            <div class="card-body">
+              <a class="stretched-link" href="#"><i class="icofont-gym-alt-1 fa-4x"></i></a>
+              <h5 class="card-title my-3">Fitness</h5>
+              <div class="d-flex align-items-center">
+                <span class="badge bg-light">103</span>
+                <h6 class="card-subtitle ms-2">Listing</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400"
+          data-aos-duration="1000">
+          <div class="card text-center py-4">
+            <div class="card-body">
+              <a class="stretched-link" href="#"><i class="icofont-music-notes fa-4x"></i></a>
+              <h5 class="card-title my-3">Bar & Clube</h5>
+              <div class="d-flex align-items-center">
+                <span class="badge bg-light">103</span>
+                <h6 class="card-subtitle ms-2">Listing</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="popular">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 heading-section mb-5 text-center aos-init aos-animate" data-aos="fade-up"
+          data-aos-duration="1000">
+          <span class="subheading">Our Listing</span>
+          <h2 class="mb-4">Popular Listing</h2>
+        </div>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+          <div class="card listing-wrap h-100">
+            <img src="images/xlist-1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <span class="material-icons text-white"> fastfood </span>
+              </div>
+              <span class="subheading">Food &amp; Drinks</span>
+              <h3 class="card-title">
+                <a href="#" class="card-link text-black">Japanese Restaurant</a>
+              </h3>
+
+              <div class="card-text">
+                <ul class="list-inline">
+                  <li>
+                    <p class="m-0"><span class="material-icons ">
+                        location_on
+                      </span> Suite 721 New York NY 10016</p>
+                  </li>
+                  <li>
+                    <p class="m-0"><span class="fa fa-phone"></span> +00 123 456 7890</p>
+                  </li>
+                </ul>
+              </div>
+              <hr class="text-muted">
+              <div class="rating d-flex align-items-center justify-content-between">
+                <p class="review d-flex align-items-center">
+                  <span class="rev">Review
+                    <small class="text-black">5.0/5</small>
+                  </span>
+
+                  <span class="material-icons star-icon">
+                    star_rate
+                  </span>
+                  <small>(100)</small>
+                </p>
+                <p class="heart d-flex align-items-center justify-content-center">
+                  <a href="#" class="d-flex">
+                    <span class="material-icons heart-icon">
+                      favorite_border
+                    </span>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+          <div class="card listing-wrap h-100">
+            <img src="images/xlist-2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-hotel text-white"></i>
+              </div>
+              <span class="subheading">Hotel</span>
+              <h3 class="card-title">
+                <a href="#" class="card-link text-black">Harbor Lights Hotel</a>
+              </h3>
+              <div class="card-text">
+                <ul class="list-inline">
+                  <li>
+                    <p class="m-0"><span class="material-icons ">
+                        location_on
+                      </span> Suite 721 New York NY 10016</p>
+                  </li>
+                  <li>
+                    <p class="m-0"><span class="fa fa-phone"></span> +00 123 456 7890</p>
+                  </li>
+                </ul>
+              </div>
+              <hr class="text-muted" />
+              <div class="rating d-flex align-items-center justify-content-between">
+                <p class="review d-flex align-items-center">
+                  <span class="rev">Review
+                    <small class="text-black">5.0/5</small>
+                  </span>
+
+                  <span class="material-icons star-icon">
+                    star_rate
+                  </span>
+                  <small>(100)</small>
+                </p>
+                <p class="heart d-flex align-items-center justify-content-center">
+                  <a href="#" class="d-flex">
+                    <span class="material-icons heart-icon">
+                      favorite_border
+                    </span>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+          <div class="card listing-wrap h-100">
+            <img src="images/xlist-3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <span class="material-icons text-white">
+                  shopping_cart
+                </span>
+              </div>
+              <span class="subheading">Shopping</span>
+              <h3 class="card-title">
+                <a href="#" class="card-link text-black">MS Center Mall of Asia</a>
+              </h3>
+              <div class="card-text">
+                <ul class="list-inline">
+                  <li>
+                    <p class="m-0"><span class="material-icons ">
+                        location_on
+                      </span> Suite 721 New York NY 10016</p>
+                  </li>
+                  <li>
+                    <p class="m-0"><span class="fa fa-phone"></span> +00 123 456 7890</p>
+                  </li>
+                </ul>
+              </div>
+              <hr class="text-muted" />
+              <div class="rating d-flex align-items-center justify-content-between">
+                <p class="review d-flex align-items-center">
+                  <span class="rev">Review
+                    <small class="text-black">5.0/5</small>
+                  </span>
+
+                  <span class="material-icons star-icon">
+                    star_rate
+                  </span>
+                  <small>(100)</small>
+                </p>
+                <p class="heart d-flex align-items-center justify-content-center">
+                  <a href="#" class="d-flex">
+                    <span class="material-icons heart-icon">
+                      favorite_border
+                    </span>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+          <div class="card listing-wrap h-100">
+            <img src="images/xlist-4.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <span class="material-icons text-white">
+                  fitness_center
+                </span>
+              </div>
+              <span class="subheading">Gym Fitness</span>
+              <h3 class="card-title">
+                <a href="#" class="card-link text-black">Maxout Fitness Gym</a>
+              </h3>
+              <div class="card-text">
+                <ul class="list-inline">
+                  <li>
+                    <p class="m-0"><span class="material-icons ">
+                        location_on
+                      </span> Suite 721 New York NY 10016</p>
+                  </li>
+                  <li>
+                    <p class="m-0"><span class="fa fa-phone"></span> +00 123 456 7890</p>
+                  </li>
+                </ul>
+              </div>
+              <hr class="text-muted" />
+              <div class="rating d-flex align-items-center justify-content-between">
+                <p class="review d-flex align-items-center">
+                  <span class="rev">Review
+                    <small class="text-black">5.0/5</small>
+                  </span>
+
+                  <span class="material-icons star-icon">
+                    star_rate
+                  </span>
+                  <small>(100)</small>
+                </p>
+                <p class="heart d-flex align-items-center justify-content-center">
+                  <a href="#" class="d-flex">
+                    <span class="material-icons heart-icon">
+                      favorite_border
+                    </span>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="offers">
+    <div class="container">
+      <div class="row">
+        <div class="card mb-3 p-0 ">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="images/xintro.jpg" class="img-fluid " alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body aside-stretch h-100 d-flex align-items-center flex-column flex-sm-row">
+                <div class="col-md-8 pt-5 pb-md-5 pb-3 pl-md-5 px-4">
+                  <div class="subheading text-white">Special Offers</div>
+                  <h2 class=" text-white">We Have Special Offers Every Now and Then</h2>
+                </div>
+                <div class="col-md-4 ">
+                  <a href="#" class="btn btn-darken py-3 px-4">Show Special Offers</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="listing">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 heading-section mb-5 text-center aos-init aos-animate" data-aos="fade-up"
+          data-aos-duration="1000">
+          <span class="subheading"> Listing</span>
+          <h2 class="mb-4">Our Listing</h2>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+          <div class="card listing-wrap h-100">
+            <img src="images/xlist-5.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <span class="material-icons text-white"> fastfood </span>
+              </div>
+              <span class="subheading">Food &amp; Drinks</span>
+              <h3 class="card-title">
+                <a href="#" class="card-link text-black">Japanese Restaurant</a>
+              </h3>
+
+              <div class="card-text">
+                <ul class="list-inline">
+                  <li>
+                    <p class="m-0"><span class="material-icons ">
+                        location_on
+                      </span> Suite 721 New York NY 10016</p>
+                  </li>
+                  <li>
+                    <p class="m-0"><span class="fa fa-phone"></span> +00 123 456 7890</p>
+                  </li>
+                </ul>
+              </div>
+              <hr class="text-muted">
+              <div class="rating d-flex align-items-center justify-content-between">
+                <p class="review d-flex align-items-center">
+                  <span class="rev">Review
+                    <small class="text-black">5.0/5</small>
+                  </span>
+
+                  <span class="material-icons star-icon">
+                    star_rate
+                  </span>
+                  <small>(100)</small>
+                </p>
+                <p class="heart d-flex align-items-center justify-content-center">
+                  <a href="#" class="d-flex">
+                    <span class="material-icons heart-icon">
+                      favorite_border
+                    </span>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+          <div class="card listing-wrap h-100">
+            <img src="images/xlist-6.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-hotel text-white"></i>
+              </div>
+              <span class="subheading">Hotel</span>
+              <h3 class="card-title">
+                <a href="#" class="card-link text-black">Harbor Lights Hotel</a>
+              </h3>
+              <div class="card-text">
+                <ul class="list-inline">
+                  <li>
+                    <p class="m-0"><span class="material-icons ">
+                        location_on
+                      </span> Suite 721 New York NY 10016</p>
+                  </li>
+                  <li>
+                    <p class="m-0"><span class="fa fa-phone"></span> +00 123 456 7890</p>
+                  </li>
+                </ul>
+              </div>
+              <hr class="text-muted" />
+              <div class="rating d-flex align-items-center justify-content-between">
+                <p class="review d-flex align-items-center">
+                  <span class="rev">Review
+                    <small class="text-black">5.0/5</small>
+                  </span>
+
+                  <span class="material-icons star-icon">
+                    star_rate
+                  </span>
+                  <small>(100)</small>
+                </p>
+                <p class="heart d-flex align-items-center justify-content-center">
+                  <a href="#" class="d-flex">
+                    <span class="material-icons heart-icon">
+                      favorite_border
+                    </span>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+          <div class="card listing-wrap h-100">
+            <img src="images/xlist-7.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <span class="material-icons text-white">
+                  shopping_cart
+                </span>
+              </div>
+              <span class="subheading">Shopping</span>
+              <h3 class="card-title">
+                <a href="#" class="card-link text-black">MS Center Mall of Asia</a>
+              </h3>
+              <div class="card-text">
+                <ul class="list-inline">
+                  <li>
+                    <p class="m-0"><span class="material-icons ">
+                        location_on
+                      </span> Suite 721 New York NY 10016</p>
+                  </li>
+                  <li>
+                    <p class="m-0"><span class="fa fa-phone"></span> +00 123 456 7890</p>
+                  </li>
+                </ul>
+              </div>
+              <hr class="text-muted" />
+              <div class="rating d-flex align-items-center justify-content-between">
+                <p class="review d-flex align-items-center">
+                  <span class="rev">Review
+                    <small class="text-black">5.0/5</small>
+                  </span>
+
+                  <span class="material-icons star-icon">
+                    star_rate
+                  </span>
+                  <small>(100)</small>
+                </p>
+                <p class="heart d-flex align-items-center justify-content-center">
+                  <a href="#" class="d-flex">
+                    <span class="material-icons heart-icon">
+                      favorite_border
+                    </span>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+          <div class="card listing-wrap h-100">
+            <img src="images/xlist-8.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <span class="material-icons text-white">
+                  fitness_center
+                </span>
+              </div>
+              <span class="subheading">Gym Fitness</span>
+              <h3 class="card-title">
+                <a href="#" class="card-link text-black">Maxout Fitness Gym</a>
+              </h3>
+              <div class="card-text">
+                <ul class="list-inline">
+                  <li>
+                    <p class="m-0"><span class="material-icons ">
+                        location_on
+                      </span> Suite 721 New York NY 10016</p>
+                  </li>
+                  <li>
+                    <p class="m-0"><span class="fa fa-phone"></span> +00 123 456 7890</p>
+                  </li>
+                </ul>
+              </div>
+              <hr class="text-muted" />
+              <div class="rating d-flex align-items-center justify-content-between">
+                <p class="review d-flex align-items-center">
+                  <span class="rev">Review
+                    <small class="text-black">5.0/5</small>
+                  </span>
+
+                  <span class="material-icons star-icon">
+                    star_rate
+                  </span>
+                  <small>(100)</small>
+                </p>
+                <p class="heart d-flex align-items-center justify-content-center">
+                  <a href="#" class="d-flex">
+                    <span class="material-icons heart-icon">
+                      favorite_border
+                    </span>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col aos-init" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+          <div class="card listing-wrap h-100">
+            <img src="images/xlist-9.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <span class="material-icons text-white">
+                  fitness_center
+                </span>
+              </div>
+              <span class="subheading">Gym Fitness</span>
+              <h3 class="card-title">
+                <a href="#" class="card-link text-black">Maxout Fitness Gym</a>
+              </h3>
+              <div class="card-text">
+                <ul class="list-inline">
+                  <li>
+                    <p class="m-0"><span class="material-icons ">
+                        location_on
+                      </span> Suite 721 New York NY 10016</p>
+                  </li>
+                  <li>
+                    <p class="m-0"><span class="fa fa-phone"></span> +00 123 456 7890</p>
+                  </li>
+                </ul>
+              </div>
+              <hr class="text-muted" />
+              <div class="rating d-flex align-items-center justify-content-between">
+                <p class="review d-flex align-items-center">
+                  <span class="rev">Review
+                    <small class="text-black">5.0/5</small>
+                  </span>
+
+                  <span class="material-icons star-icon">
+                    star_rate
+                  </span>
+                  <small>(100)</small>
+                </p>
+                <p class="heart d-flex align-items-center justify-content-center">
+                  <a href="#" class="d-flex">
+                    <span class="material-icons heart-icon">
+                      favorite_border
+                    </span>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col aos-init" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+          <div class="card listing-wrap h-100">
+            <img src="images/xlist-10.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <span class="material-icons text-white">
+                  fitness_center
+                </span>
+              </div>
+              <span class="subheading">Gym Fitness</span>
+              <h3 class="card-title">
+                <a href="#" class="card-link text-black">Maxout Fitness Gym</a>
+              </h3>
+              <div class="card-text">
+                <ul class="list-inline">
+                  <li>
+                    <p class="m-0"><span class="material-icons ">
+                        location_on
+                      </span> Suite 721 New York NY 10016</p>
+                  </li>
+                  <li>
+                    <p class="m-0"><span class="fa fa-phone"></span> +00 123 456 7890</p>
+                  </li>
+                </ul>
+              </div>
+              <hr class="text-muted" />
+              <div class="rating d-flex align-items-center justify-content-between">
+                <p class="review d-flex align-items-center">
+                  <span class="rev">Review
+                    <small class="text-black">5.0/5</small>
+                  </span>
+
+                  <span class="material-icons star-icon">
+                    star_rate
+                  </span>
+                  <small>(100)</small>
+                </p>
+                <p class="heart d-flex align-items-center justify-content-center">
+                  <a href="#" class="d-flex">
+                    <span class="material-icons heart-icon">
+                      favorite_border
+                    </span>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col aos-init" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+          <div class="card listing-wrap h-100">
+            <img src="images/xlist-11.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <span class="material-icons text-white">
+                  fitness_center
+                </span>
+              </div>
+              <span class="subheading">Gym Fitness</span>
+              <h3 class="card-title">
+                <a href="#" class="card-link text-black">Maxout Fitness Gym</a>
+              </h3>
+              <div class="card-text">
+                <ul class="list-inline">
+                  <li>
+                    <p class="m-0"><span class="material-icons ">
+                        location_on
+                      </span> Suite 721 New York NY 10016</p>
+                  </li>
+                  <li>
+                    <p class="m-0"><span class="fa fa-phone"></span> +00 123 456 7890</p>
+                  </li>
+                </ul>
+              </div>
+              <hr class="text-muted" />
+              <div class="rating d-flex align-items-center justify-content-between">
+                <p class="review d-flex align-items-center">
+                  <span class="rev">Review
+                    <small class="text-black">5.0/5</small>
+                  </span>
+
+                  <span class="material-icons star-icon">
+                    star_rate
+                  </span>
+                  <small>(100)</small>
+                </p>
+                <p class="heart d-flex align-items-center justify-content-center">
+                  <a href="#" class="d-flex">
+                    <span class="material-icons heart-icon">
+                      favorite_border
+                    </span>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col aos-init" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+          <div class="card listing-wrap h-100">
+            <img src="images/xlist-12.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <span class="material-icons text-white">
+                  fitness_center
+                </span>
+              </div>
+              <span class="subheading">Gym Fitness</span>
+              <h3 class="card-title">
+                <a href="#" class="card-link text-black">Maxout Fitness Gym</a>
+              </h3>
+              <div class="card-text">
+                <ul class="list-inline">
+                  <li>
+                    <p class="m-0"><span class="material-icons ">
+                        location_on
+                      </span> Suite 721 New York NY 10016</p>
+                  </li>
+                  <li>
+                    <p class="m-0"><span class="fa fa-phone"></span> +00 123 456 7890</p>
+                  </li>
+                </ul>
+              </div>
+              <hr class="text-muted" />
+              <div class="rating d-flex align-items-center justify-content-between">
+                <p class="review d-flex align-items-center">
+                  <span class="rev">Review
+                    <small class="text-black">5.0/5</small>
+                  </span>
+
+                  <span class="material-icons star-icon">
+                    star_rate
+                  </span>
+                  <small>(100)</small>
+                </p>
+                <p class="heart d-flex align-items-center justify-content-center">
+                  <a href="#" class="d-flex">
+                    <span class="material-icons heart-icon">
+                      favorite_border
+                    </span>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="welcome">
+    <div class="container">
+      <div class="row g-xl-5">
+        <div class="card mb-3 p-0 ">
+          <div class="row g-0">
+            <div class="d-none d-md-flex col-md-5 photo align-items-stretch">
+              <div class="photo w-100 img-fluid"></div>
+            </div>
+            <div class="col-md-7">
+              <div class="card-body h-100 py-5">
+                <div class="heading-section pt-5 pb-md-5 pb-3 pl-md-5 px-4">
+                  <div class="subheading ">WELCOME TO DIRECTONE
+                  </div>
+                  <h2 class="">Directone A Directory & Listing</h2>
+                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                    live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a
+                    large language ocean.</p>
+                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It
+                    is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                </div>
+                <div class="row g-2">
+                  <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
+                    <div class="counter-wrap aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                      <div class="text">
+                        <span class="d-block number gradient-text"><span id="count1" class="counter"
+                            data-count="50">50</span></span>
+                        <p>Years of Experienced</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
+                    <div class="counter-wrap aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                      data-aos-duration="1000">
+                      <div class="text">
+                        <span class="d-block number gradient-text"><span id="count2" class="counter"
+                            data-count="210">210</span>K+</span>
+                        <p>Total Listing</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
+                    <div class="counter-wrap aos-init aos-animate" data-aos="fade-up" data-aos-delay="200"
+                      data-aos-duration="1000">
+                      <div class="text">
+                        <span class="d-block number gradient-text"><span id="count3" class="counter"
+                            data-count="450">450</span></span>
+                        <p>Company Staf</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
+                    <div class="counter-wrap aos-init aos-animate" data-aos="fade-up" data-aos-delay="300"
+                      data-aos-duration="1000">
+                      <div class="text">
+                        <span class="d-block number gradient-text"><span id="count4" class="counter"
+                            data-count="100">100</span></span>
+                        <p>Happy People</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="happy">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 heading-section mb-5 text-center aos-init aos-animate" data-aos="fade-up"
+          data-aos-duration="1000">
+          <span class="subheading">TESTIMONIAL
+          </span>
+          <h2 class="mb-4">Happy People
+          </h2>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+          <div class="card rounded-2 px-2 listing-wrap h-100 ">
+            <div class="card-body text-center ">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <span class="material-icons text-white">
+                  format_quote
+                </span>
+              </div>
+
+              <div class="card-text"> Far far away, behind the word mountains, far from the countries Vokalia and
+                Consonantia, there live the blind texts.</div>
+
+
+              <div class="d-flex align-items-center">
+                <div class="photo-happy rounded-circle w-80p h-80p "
+                  style="background: url(images/xperson_1.jpg) no-repeat center center; background-size: cover;">
+                </div>
+                <div class="ps-3">
+                  <p class="name">Roger Scott</p>
+                  <span class="position">Marketing Manager</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+          <div class="card rounded-2 px-2 listing-wrap h-100 ">
+            <div class="card-body text-center ">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <span class="material-icons text-white">
+                  format_quote
+                </span>
+              </div>
+
+              <div class="card-text"> Far far away, behind the word mountains, far from the countries Vokalia and
+                Consonantia, there live the blind texts. </div>
+
+              <div class="d-flex align-items-center">
+                <div class="photo-happy rounded-circle w-80p h-80p "
+                  style="background: url(images/xperson_2.jpg) no-repeat center center; background-size: cover;">
+                </div>
+                <div class="ps-3">
+                  <p class="name">Roger Scott</p>
+                  <span class="position">Marketing Manager</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+          <div class="card rounded-2 px-2 listing-wrap h-100 ">
+            <div class="card-body text-center ">
+              <div class="icon d-flex justify-content-center align-items-center">
+                <span class="material-icons text-white">
+                  format_quote
+                </span>
+              </div>
+
+              <div class="card-text"> Far far away, behind the word mountains, far from the countries Vokalia and
+                Consonantia, there live the blind texts. </div>
+
+              <div class="d-flex align-items-center">
+                <div class="photo-happy rounded-circle w-80p h-80p "
+                  style="background: url(images/xperson_3.jpg) no-repeat center center; background-size: cover;">
+                </div>
+                <div class="ps-3">
+                  <p class="name">Roger Scott</p>
+                  <span class="position">Marketing Manager</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how" class="bg-how h-auto">
+    <div class="container-fluid">
+      <div class="row mb-5">
+        <div class="col-12">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-8 heading-section mb-5 text-center aos-init aos-animate" data-aos="fade-up"
+                data-aos-duration="1000">
+                <span class="subheading">Let's Find Out
+                </span>
+                <h2 class="mb-4 text-white">How It Works
+                </h2>
+              </div>
+              <div class="col-12">
+                <div class="container">
+                  <div class="row">
+                    <div
+                      class="col-12 bg-video img-fluid rounded-2 d-flex align-items-center justify-content-center aos-init aos-animate"
+                      data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                      <a href="https://vimeo.com/115041822"
+                        class="icon-video d-flex align-items-center justify-content-center">
+                        <span class="iconify" data-icon="carbon:play-filled-alt" style="color: #ff414d;" data-width="40"
+                          data-height="40"></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row m-md-5 mt-4 pt-lg-4">
+                <div class="col-12 col-lg-3  aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                  data-aos-duration="1000">
+                  <div class="card text-center rounded-2">
+                    <div class="card-body listing-wrap">
+                      <div class="icon d-flex justify-content-center align-items-center">
+                        <span class="iconify" data-icon="emojione-monotone:love-hotel" data-width="40"
+                          data-height="40"></span>
+                      </div>
+                      <h5 class="card-title fs-3 mb-4">1. Choose A
+                        Category</h5>
+                      <p class="card-text">A small river named Duden flows by their place and supplies it with the
+                        necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly
+                        into your mouth.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                  data-aos-duration="1000">
+                  <div class="card text-center rounded-2">
+                    <div class="card-body listing-wrap">
+                      <div class="icon d-flex justify-content-center align-items-center">
+                        <span class="iconify" data-icon="emojione-monotone:love-hotel" data-width="40"
+                          data-height="40"></span>
+                      </div>
+                      <h5 class="card-title fs-3 mb-4">2. Find What You
+                        Want</h5>
+                      <p class="card-text">A small river named Duden flows by their place and supplies it with the
+                        necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly
+                        into your mouth.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                  data-aos-duration="1000">
+                  <div class="card text-center rounded-2">
+                    <div class="card-body listing-wrap">
+                      <div class="icon d-flex justify-content-center align-items-center">
+                        <span class="iconify" data-icon="emojione-monotone:love-hotel" data-width="40"
+                          data-height="40"></span>
+                      </div>
+                      <h5 class="card-title fs-3  mb-4">
+                        3. Select The Best
+                        Place</h5>
+                      <p class="card-text">A small river named Duden flows by their place and supplies it with the
+                        necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly
+                        into your mouth.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
+                  data-aos-duration="1000">
+                  <div class="card text-center rounded-2">
+                    <div class="card-body listing-wrap">
+                      <div class="icon d-flex justify-content-center align-items-center">
+                        <span class="iconify" data-icon="emojione-monotone:love-hotel" data-width="40"
+                          data-height="40"></span>
+                      </div>
+                      <h5 class="card-title fs-3 mb-4">4. Explore The
+                        Place</h5>
+                      <p class="card-text">A small river named Duden flows by their place and supplies it with the
+                        necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly
+                        into your mouth.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 heading-section mb-5 text-center aos-init aos-animate" data-aos="fade-up"
+          data-aos-duration="1000">
+          <span class="subheading">OUR BLOG
+          </span>
+          <h2 class="mb-4">Recent Blog
+
+          </h2>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+          <div class="card listing-wrap h-100 ">
+            <img src="images/ximage_1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-start px-4">
+              <div class="favorite d-flex align-items-center justify-content-between">
+                <div class="bloger-info">
+                  <div class="d-flex align-items-center">
+                    <img class="rounded-circle  img-fluid " src="images/xperson_1.jpg" alt="profile image">
+                    <h3 class="ms-2 mb-0 fs-7 text-black fw-bold">John Dorf</h3>
+                  </div>
+                </div>
+                <div class="heart-blog d-flex align-items-center justify-content-center">
+                  <a href="#" class="d-flex">
+                    <span class="material-icons heart-icon">
+                      favorite_border
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div class="d-flex text-start my-3">
+                <span class="small text-black-50 fw-bold">DEC. 05, 2020</span>
+                <span class="small fw-bold ms-3 comment">3 COMMENTS</span>
+              </div>
+              <h3 class="card-title">
+                <a href="#" class="card-link text-black">Explore The Best Restaurant in New York</a>
+              </h3>
+
+              <div class="card-text">
+                <p class="text-black-50 m-0">A small river named Duden flows by their place and supplies it with the
+                  necessary regelialia.</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+          <div class="card listing-wrap h-100 ">
+            <img src="images/ximage_2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-start px-4">
+              <div class="favorite d-flex align-items-center justify-content-between">
+                <div class="bloger-info">
+                  <div class="d-flex align-items-center">
+                    <img class="rounded-circle  img-fluid " src="images/xperson_1.jpg" alt="profile image">
+                    <h3 class="ms-2 mb-0 fs-7 text-black fw-bold">John Dorf</h3>
+                  </div>
+                </div>
+                <div class="heart-blog d-flex align-items-center justify-content-center">
+                  <a href="#" class="d-flex">
+                    <span class="material-icons heart-icon">
+                      favorite_border
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div class="d-flex text-start my-3">
+                <span class="small text-black-50 fw-bold">DEC. 05, 2020</span>
+                <span class="small fw-bold ms-3 comment">3 COMMENTS</span>
+              </div>
+              <h3 class="card-title">
+                <a href="#" class="card-link text-black">Explore The Best Restaurant in New York</a>
+              </h3>
+
+              <div class="card-text">
+                <p class="text-black-50 m-0">A small river named Duden flows by their place and supplies it with the
+                  necessary regelialia.</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+          <div class="card listing-wrap h-100 ">
+            <img src="images/ximage_3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-start px-4">
+              <div class="favorite d-flex align-items-center justify-content-between">
+                <div class="bloger-info">
+                  <div class="d-flex align-items-center">
+                    <img class="rounded-circle  img-fluid " src="images/xperson_1.jpg" alt="profile image">
+                    <h3 class="ms-2 mb-0 fs-7 text-black fw-bold">John Dorf</h3>
+                  </div>
+                </div>
+                <div class="heart-blog d-flex align-items-center justify-content-center">
+                  <a href="#" class="d-flex">
+                    <span class="material-icons heart-icon">
+                      favorite_border
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div class="d-flex text-start my-3">
+                <span class="small text-black-50 fw-bold">DEC. 05, 2020</span>
+                <span class="small fw-bold ms-3 comment">3 COMMENTS</span>
+              </div>
+              <h3 class="card-title">
+                <a href="#" class="card-link text-black">Explore The Best Restaurant in New York</a>
+              </h3>
+
+              <div class="card-text">
+                <p class="text-black-50 m-0">A small river named Duden flows by their place and supplies it with the
+                  necessary regelialia.</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+          <div class="card listing-wrap h-100 ">
+            <img src="images/ximage_4.jpg" class="card-img-top" alt="..." />
+            <div class="card-body text-start px-4">
+              <div class="favorite d-flex align-items-center justify-content-between">
+                <div class="bloger-info">
+                  <div class="d-flex align-items-center">
+                    <img class="rounded-circle  img-fluid " src="images/xperson_1.jpg" alt="profile image">
+                    <h3 class="ms-2 mb-0 fs-7 text-black fw-bold">John Dorf</h3>
+                  </div>
+                </div>
+                <div class="heart-blog d-flex align-items-center justify-content-center">
+                  <a href="#" class="d-flex">
+                    <span class="material-icons heart-icon">
+                      favorite_border
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div class="d-flex text-start my-3">
+                <span class="small text-black-50 fw-bold">DEC. 05, 2020</span>
+                <span class="small fw-bold ms-3 comment">3 COMMENTS</span>
+              </div>
+              <h3 class="card-title">
+                <a href="#" class="card-link text-black">Explore The Best Restaurant in New York</a>
+              </h3>
+
+              <div class="card-text">
+                <p class="text-black-50 m-0">A small river named Duden flows by their place and supplies it with the
+                  necessary regelialia.</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="">
+    <div class="container">
+      <div class="row  pb-5 justify-content-between">
+        <div class="col-md-5 col-lg-3 m-md-2 m-lg-0">
+
+          <h2 class="d-flex flex-column ms-1 mb-5">
+            <span class="fs-2 lh-1 fw-bold text-white">Directone</span>
+            <span class="fs-8 lh-1 fw-bold text-uppercase text-white">Directory and Listing</span>
+          </h2>
+          <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+          <ul class="list-inline">
+            <li class="list-inline-item"><a class="social-footer d-flex align-items-center justify-content-center"
+                href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a class="social-footer d-flex align-items-center justify-content-center"
+                href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a class="social-footer d-flex align-items-center justify-content-center"
+                href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-md-5 col-lg-2 m-md-2 m-lg-0">
+          <h2 class="mb-5 fs-5 fw-bold text-white">Explore</h2>
+          <ul class="list-unstyled">
+            <li class="mb-3">
+              <a href="#">
+                <i class="fa-solid fa-chevron-right"></i>
+                About Us</a>
+            </li>
+            <li class="mb-3">
+              <a href="#">
+                <i class="fa-solid fa-chevron-right"></i>
+                Account</a>
+            </li>
+            <li class="mb-3">
+              <a href="#">
+                <i class="fa-solid fa-chevron-right"></i>
+                Listing</a>
+            </li>
+            <li class="mb-3">
+              <a href="#">
+                <i class="fa-solid fa-chevron-right"></i>
+                pricing Packages</a>
+            </li>
+            <li class="mb-3">
+              <a href="#">
+                <i class="fa-solid fa-chevron-right"></i>
+                pricing Packages</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-5 col-lg-2 m-md-2 m-lg-0">
+          <h2 class="mb-5 fs-5 fw-bold text-white">Quick Links</h2>
+          <ul class="list-unstyled">
+            <li class="mb-3">
+              <a href="#">
+                <i class="fa-solid fa-chevron-right"></i>
+                Contact Us</a>
+            </li>
+            <li class="mb-3">
+              <a href="#">
+                <i class="fa-solid fa-chevron-right"></i>
+                Terms & Conditions</a>
+            </li>
+            <li class="mb-3">
+              <a href="#">
+                <i class="fa-solid fa-chevron-right"></i>
+                Privacy</a>
+            </li>
+            <li class="mb-3">
+              <a href="#">
+                <i class="fa-solid fa-chevron-right"></i>
+                Feedbacks</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-5 col-lg-2 m-md-2 m-lg-0">
+          <h2 class="mb-5 fs-5 fw-bold text-white">Categories</h2>
+          <ul class="list-unstyled">
+            <li class="mb-3">
+              <a href="#">
+                <i class="fa-solid fa-chevron-right"></i>
+                Food & Drinks</a>
+            </li>
+            <li class="mb-3">
+              <a href="#">
+                <i class="fa-solid fa-chevron-right"></i>
+                Hotels</a>
+            </li>
+            <li class="mb-3">
+              <a href="#">
+                <i class="fa-solid fa-chevron-right"></i>
+                Shopping</a>
+            </li>
+            <li class="mb-3">
+              <a href="#">
+                <i class="fa-solid fa-chevron-right"></i>
+               Beauty</a>
+            </li>
+            <li class="mb-3">
+              <a href="#">
+                <i class="fa-solid fa-chevron-right"></i>
+                Fitness</a>
+            </li>
+            <li class="mb-3">
+              <a href="#">
+                <i class="fa-solid fa-chevron-right"></i>
+                Bar & Clube</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-5 col-lg-3 m-md-2 m-lg-0">
+          <h2 class="mb-5 fs-5 fw-bold text-white">Have a Questions?</h2>
+          <ul class="list-unstyled">
+            <li class="d-flex align-items-baseline mb-3">
+              <span class="fa-solid fa-map footer-contact-icon"></span>
+              <span class="inline">203 Fake St. Mountain View, San Francisco, California, USA</span>
+            </li>
+            <li class="d-flex align-items-baseline  mb-3">
+              <span class="fa-solid fa-phone footer-contact-icon"></span>
+              <span class="inline">+2 392 3929 210</span>
+            </li>
+            <li class="d-flex align-items-baseline  mb-3">
+              <span class="fa-solid fa-paper-plane footer-contact-icon"></span>
+              <span class="inline">info@yourdomain.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="continer-fluid  px-0 py-5 footer-bottom">
+      <div class="container-xl">
+        <div class="row">
+        <div class="col-md-12 text-center">
+        <p class="mb-0">Copyright © 2022 All rights reserved | This site is made with <i class="fa fa-heart color-red"></i> by <a class="color-red" href="#">Zeynab Yad</a>
+        </p></div>
+        </div>
+        </div>
+    </div>
+  </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>
