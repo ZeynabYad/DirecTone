@@ -550,6 +550,9 @@ footer {
 footer li a{
   color: rgba(255, 255, 255, 0.7);
 }
+footer a:hover{
+    color: var(--bs-red);
+}
 
 .social-footer{
   height: 40px;
