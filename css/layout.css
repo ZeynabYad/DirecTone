@@ -144,13 +144,16 @@ form * {
   background-color: #ff414d;
   outline: none !important;
   -webkit-box-shadow: 0px 5px 14px -6px rgb(0 0 0 / 27%);
-  -moz-box-shadow: 0px 5card-subtitlepx 14px -6px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: 0px 5px 14px -6px rgba(0, 0, 0, 0.27);
   box-shadow: 0px 5px 14px -6px rgb(0 0 0 / 27%);
   color: rgba(255, 255, 255, 0.9);
   overflow: hidden;
 }
 #services .card:hover i {
   color: rgba(255, 255, 255, 0.9) !important;
+}
+#services .card-subtitle {
+  color: rgba(0,0,0,.5);
 }
 #services .card:hover .card-subtitle {
   color: rgba(255, 255, 255, 0.9);
@@ -164,7 +167,7 @@ form * {
   color: rgba(255, 255, 255, 0.9);
 }
 #services .active i,
-#services .card-subtitle {
+#services .active .card-subtitle {
   color: rgba(255, 255, 255, 0.9);
 }
 /* #services .card-body::after {
